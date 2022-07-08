@@ -6,7 +6,7 @@ const ArticleList = ({ articles }) => {
     return (
       <div className={articleStyles.grid}>
             {articles.map((article) => (
-            <ArticleItem article={article}/>//eslint-disable
+            <ArticleItem article={article}/>//eslint-disable-line
         ))}        
       </div>
     )
